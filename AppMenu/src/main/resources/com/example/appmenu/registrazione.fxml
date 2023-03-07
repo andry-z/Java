@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.appmenu.HelloController">
+   <children>
+      <Label layoutX="78.0" layoutY="131.0" text="Cognome">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label layoutX="78.0" layoutY="195.0" text="Nome">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <TextField layoutX="167.0" layoutY="131.0" />
+      <TextField layoutX="167.0" layoutY="195.0" />
+      <Label layoutX="241.0" layoutY="14.0" text="Registrazione paziente">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="258.0" text="Patologia">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="167.0" layoutY="258.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button layoutX="167.0" layoutY="484.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefWidth="100.0" text="Salva">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="560.0" layoutY="484.0" minWidth="-Infinity" mnemonicParsing="false" prefWidth="100.0" text="Cancella">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <ScrollBar layoutX="793.0" orientation="VERTICAL" prefHeight="964.0" prefWidth="14.0" />
+   </children>
+</AnchorPane>
