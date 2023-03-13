@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         Dipendente dip1 = new Dipendente("Pippo", "Baudo", "1/1/1900", 5000);
-        Dipendente dip2 = new Dipendente("Biffi", "coglione", "1/2/1900", 7000);
-        Dipendente dip3 = new Dipendente("Caca", "pupu", "1/3/1900", 1000);
+        Dipendente dip2 = new Dipendente("Mario", "Rossi", "1/2/1900", 7000);
+        Dipendente dip3 = new Dipendente("Paola", "Bianchi", "1/3/1900", 1000);
         if(dip1.guadagnaPiuDi(dip2)){
             if(dip1.guadagnaPiuDi(dip3)){
                 if(dip2.guadagnaPiuDi(dip3)){
