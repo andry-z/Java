@@ -17,5 +17,5 @@ public class Dipendente extends Persona{
     protected String stampa(){
         return "Nome: " + nome + ", Cognome: " + cognome + ", Data assunzione: " + dataAssunzione + ", Stipendio: " + String.valueOf(this.stipendio);
     }
-
 }
+
