@@ -32,7 +32,7 @@
             <RowConstraints maxHeight="60.0" minHeight="60.0" prefHeight="60.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onPercentClick" prefHeight="115.0" prefWidth="115.0" text="\%">
+            <Button alignment="CENTER" blendMode="DARKEN" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onPercentClick" prefHeight="115.0" prefWidth="115.0" styleClass="operation-button" text="\%">
                <cursor>
                   <Cursor fx:constant="CROSSHAIR" />
                </cursor>
@@ -40,37 +40,37 @@
                   <Font size="27.0" />
                </font>
             </Button>
-            <Button id="clear-button" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onDeleteEverythingClick" prefHeight="285.0" prefWidth="115.0" text="CE" GridPane.columnIndex="1">
+            <Button id="clear-button" alignment="CENTER" blendMode="DARKEN" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onDeleteEverythingClick" prefHeight="285.0" prefWidth="115.0" styleClass="operation-button" text="CE" GridPane.columnIndex="1">
                <font>
                   <Font size="27.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onDeleteClick" prefHeight="115.0" prefWidth="115.0" text="C" GridPane.columnIndex="2">
+            <Button alignment="CENTER" blendMode="DARKEN" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onDeleteClick" prefHeight="115.0" prefWidth="115.0" styleClass="operation-button" text="C" GridPane.columnIndex="2">
                <font>
                   <Font size="27.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onBackspaceClick" prefHeight="75.0" prefWidth="115.0" text="⌫" GridPane.columnIndex="3">
+            <Button alignment="CENTER" blendMode="DARKEN" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onBackspaceClick" prefHeight="75.0" prefWidth="115.0" styleClass="operation-button" text="⌫" GridPane.columnIndex="3">
                <font>
                   <Font size="27.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onInverseClick" prefHeight="157.0" prefWidth="115.0" text="1/x" GridPane.rowIndex="1">
+            <Button alignment="CENTER" blendMode="DARKEN" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onInverseClick" prefHeight="157.0" prefWidth="115.0" styleClass="operation-button" text="1/x" GridPane.rowIndex="1">
                <font>
                   <Font size="27.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onSquaredClick" prefHeight="79.0" prefWidth="115.0" text="x²" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <Button alignment="CENTER" blendMode="DARKEN" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onSquaredClick" prefHeight="79.0" prefWidth="115.0" styleClass="operation-button" text="x²" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <font>
                   <Font size="27.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onSqrtClick" prefHeight="77.0" prefWidth="115.0" text="√" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <Button alignment="CENTER" blendMode="DARKEN" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onSqrtClick" prefHeight="77.0" prefWidth="115.0" styleClass="operation-button" text="√" GridPane.columnIndex="2" GridPane.rowIndex="1">
                <font>
                   <Font size="27.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onDivideClick" prefHeight="82.0" prefWidth="115.0" styleClass="operation-button" text="÷" GridPane.columnIndex="3" GridPane.rowIndex="1">
+            <Button alignment="CENTER" blendMode="DARKEN" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onDivideClick" prefHeight="82.0" prefWidth="115.0" styleClass="operation-button" text="÷" GridPane.columnIndex="3" GridPane.rowIndex="1">
                <font>
                   <Font size="27.0" />
                </font>
@@ -90,7 +90,7 @@
                   <Font size="27.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onMultiplyClick" prefHeight="74.0" prefWidth="115.0" styleClass="operation-button" text="x" GridPane.columnIndex="3" GridPane.rowIndex="2">
+            <Button alignment="CENTER" blendMode="DARKEN" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onMultiplyClick" prefHeight="74.0" prefWidth="115.0" styleClass="operation-button" text="x" GridPane.columnIndex="3" GridPane.rowIndex="2">
                <font>
                   <Font size="27.0" />
                </font>
@@ -123,12 +123,12 @@
                   <Font size="27.0" />
                </font>
             </Button>
-            <Button id="equals-button" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onEqualsClick" prefHeight="83.0" prefWidth="115.0" text="=" GridPane.columnIndex="3" GridPane.rowIndex="5">
+            <Button id="equals-button" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onEqualsClick" prefHeight="83.0" prefWidth="115.0" styleClass="operation-button" text="=" GridPane.columnIndex="3" GridPane.rowIndex="5">
                <font>
                   <Font size="27.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onAddClick" prefHeight="85.0" prefWidth="115.0" styleClass="operation-button" text="+" GridPane.columnIndex="3" GridPane.rowIndex="4">
+            <Button alignment="CENTER" blendMode="DARKEN" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onAddClick" prefHeight="85.0" prefWidth="115.0" styleClass="operation-button" text="+" GridPane.columnIndex="3" GridPane.rowIndex="4">
                <font>
                   <Font size="27.0" />
                </font>
@@ -148,7 +148,7 @@
                   <Font size="27.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onMinusClick" prefHeight="60.0" prefWidth="115.0" styleClass="operation-button" text="-" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="3">
+            <Button alignment="CENTER" blendMode="DARKEN" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onMinusClick" prefHeight="60.0" prefWidth="115.0" styleClass="operation-button" text="-" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="3">
                <font>
                   <Font size="38.0" />
                </font>

@@ -4,6 +4,8 @@
 }
 
 #display {
+    -fx-font-family: Digital-7;
+    -fx-font-size: 50px !important;
     -fx-background-color: #a8d5e5;
     -fx-text-fill: #000000;
     -fx-font-size: 32px;
@@ -28,4 +30,8 @@
 
 #equals-button:pressed {
     -fx-background-color: #004a99;
+}
+
+.operation-button{
+    -fx-background-color: #95d8f0;
 }

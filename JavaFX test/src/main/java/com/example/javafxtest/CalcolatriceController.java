@@ -157,12 +157,14 @@ public class CalcolatriceController {
         operando2 = 0;
         displayLabel.setText("0");
         opCompletata = false;
+        flgSostituisci = true;
     }
 
     @FXML
     protected void onDeleteClick(){
         displayLabel.setText("0");
         opCompletata = false;
+        flgSostituisci = true;
     }
 
     @FXML
@@ -204,7 +206,12 @@ public class CalcolatriceController {
     protected void onSignClick(){
         double value = Double.parseDouble(displayLabel.getText());
         value = -value;
-        displayLabel.setText(String.valueOf(value));
+        if (value % 1 == 0) {
+            int intValue = (int) value;
+            displayLabel.setText(String.valueOf(intValue));
+        } else {
+            displayLabel.setText(String.valueOf(value));
+        }
     }
 
     @FXML
